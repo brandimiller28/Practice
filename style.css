@@ -1,0 +1,94 @@
+body {
+  width: 500px; 
+  height: 800px; 
+
+}
+
+#house {
+  position: relative; 
+  margin-top: 200px; 
+  width: 500px; 
+  height: 400px; 
+  background-color: #1E90FF; 
+  border: 2px solid #4169E1; 
+}
+
+#chimney {
+  position: absolute;
+  top: -100px;
+  left: 400px;
+  width: 50px;
+  height: 100px;
+  background-color: #5C4033;
+  border: 2px solid #355E3B;
+  z-index: -1; 
+  
+}
+#roof {
+  position: absolute; 
+  top: 0;
+  width: 500px; 
+  height: 20px; 
+  border: 2px solid #4169E1; 
+  background-color: #BC8F8F; 
+  
+  
+}
+#window-1 {
+  position: absolute; 
+  top: 60px; 
+  left: 20px; 
+  width: 100px; 
+  height: 100px; 
+  border: 10px solid #BC8F8F;  
+  background-color: #D6F1FF; 
+}
+.window-pane {
+  position: absolute; 
+  left: 45px; 
+  width: 10px; 
+  height: 100px; 
+  background-color: #BC8F8F;
+}
+#window-2 {
+  position: absolute; 
+  top: 60px; 
+  left: 350px; 
+  width: 100px; 
+  height: 100px; 
+  border: 10px solid #BC8F8F; 
+  background-color: #D6F1FF; 
+}
+#door {
+  position: absolute; 
+  left: 210px; 
+  bottom: 0; 
+  width: 100px; 
+  height: 200px; 
+  border: 2px solid #5C4033; 
+  background-color: #BC8F8F; 
+}
+.knob {
+  position: absolute; 
+  right: 10px; 
+  top: 100px; 
+  width: 10px; 
+  height: 10px; 
+  background-color: #DAA520; 
+  border: 3px solid;
+  border-radius: 60px; 
+}
+#welcome-mat {
+  position: absolute; 
+  bottom: -50px; 
+  left: 210px; 
+  width: 100px; 
+  height: 50px; 
+  background-color: lightblue; 
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  font-weight: bold; 
+  font-family: "Comic Sans MF", cursive; 
+
+}
